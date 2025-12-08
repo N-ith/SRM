@@ -15,14 +15,29 @@ A professional-grade secure file deletion tool with cryptographic guarantees.
 
 ```bash
 # Clone the repository
-git clone <repo-url>
-cd srm
+git clone https://github.com/N-ith/SRM.git
+cd SRM
+
+# Install requirement
+pip install requirement.txt
 
 # Install in development mode
 pip install -e .
 
 # Or install from source
 python setup.py install
+```
+
+## OR 
+```
+#For quick testing only
+git clone https://github.com/N-ith/SRM.git
+cd SRM
+
+# Install requirement
+pip install requirement.txt
+
+python3 -m srm.cli [option(s)] <path_to_your_file>
 ```
 
 ## Usage
