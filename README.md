@@ -81,5 +81,5 @@ Even if overwriting fails, encrypted data cannot be recovered without the key.
 
 ```bash
 # Uninstall
-pip uninstall srm
+rm -rf SRM
 ```
